@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel-watch server.js"
+  },
+  "keywords": [],
+  "author": "Gumada Andile",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^7.4.1"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.21.1",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^5.0.0"
+  }
+}
